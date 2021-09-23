@@ -32,6 +32,7 @@ class App extends React.Component {
           // user in with confirmationResult.confirm(code).
           window.confirmationResult = confirmationResult;
           console.log("OTP has been sent")
+          alert("OTP has been sent")
           // ...
         }).catch((error) => {
           // Error; SMS not sent
